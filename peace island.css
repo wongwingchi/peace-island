@@ -1,0 +1,103 @@
+body {
+    background-color: #fffee0;
+
+    h1 {
+        color: rgb(97, 81, 18);
+        font-size: 40px;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-weight: bold;
+        line-height: 1.1; 
+        letter-spacing: 2px; 
+    }
+
+    h2 {
+        color: rgb(120, 102, 28);
+        font-size: 30px;
+        font-family: Comic Sans MS, Comic Sans, cursive;
+        font-weight: bold;
+        line-height: 1.1; 
+        letter-spacing: 2px; 
+    }
+    p {
+        color: rgb(53, 42, 0);
+        font-size: 20px;
+        font-family: "楷体", "楷体_GB2312", "KaiTi", "STKaiti", serif;
+        line-height: 1; 
+        letter-spacing: 1px; 
+    }
+
+
+    
+}
+
+
+
+ .right-float {
+        float: right;
+        margin-left: 20px;
+    }
+
+  .left-float {
+        float: left;
+        margin-right: 20px;
+    }
+
+    
+    .interactive:hover {
+        transform: scale(1.05); 
+      }
+      
+      .area {
+        padding: 20px;
+        border-radius: 15px; 
+        transition: transform 0.5s; 
+       margin-right: 10px; 
+       display: inline-block; 
+      }
+
+    
+      .areaw {
+        background-color: rgb(255, 255, 255); 
+           padding: 20px;
+        margin: 10px;
+        border-radius: 15px; 
+        transition: transform 0.5s;
+       
+      }
+      
+      .areay {
+        background-color: rgb(246, 255, 165);
+       
+      }
+      
+      .areao {
+        background-color: rgb(255, 213, 153);
+
+      }
+  
+      .areab {
+        background-color: rgb(198, 240, 255);
+      }
+  
+      .areag {
+        background-color: rgb(229, 255, 198);
+       
+      }
+      .areap{
+        background-color: rgb(239, 198, 255);
+        
+      }
+     
+      #ArtWork .artwork {
+        width: 30%; 
+        height: auto;  
+        margin: 5px; 
+      }
+      
+      #artwork-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      
